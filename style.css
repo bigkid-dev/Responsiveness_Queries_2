@@ -1,0 +1,333 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 460vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first_layout{
+    background-image: url("bg-hero-desktop.svg");
+    background-size:contain;
+    display: flex;
+    padding-top: 20px;
+    height: 718px;
+    justify-content: end;
+    background-color: hsl(193, 100%, 96%)
+}
+.first_layout .logo-area{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    
+}
+.logo-area .text-area{
+    text-justify: center;
+    padding-top: 150px;
+}
+.text-area #first{
+    padding-top: 30px;
+}
+.logo-area .text-btn{
+    padding-top: 30px;
+}
+.text-btn button{
+    border-radius: 20px;
+    width:200px;
+    height: 40px;
+    background-color:hsl(322, 100%, 66%) ;
+    border-color: hsl(322, 100%, 66%);
+    border-style: solid;
+    color: white;
+}
+.first_layout .top-btn{
+    width:50%;
+    padding-right: 50px;    
+}
+.top-btn .btn{
+    float: right;
+    width:120px;
+    border-radius: 20px;
+    height:30px;
+    background-color: white;   
+    border-width: 0px;
+    border-style: solid;
+    border-color:  white;
+    box-shadow: 1px 1px 1px 1px rgb(231, 231, 231), 0px -1px 1px 1px rgb(231, 231, 231), 1px 1px 1px 1px rgb(231, 231, 231);   
+}
+.top-btn img{
+    padding-top: 70px;
+}
+
+.second_layout{
+    padding-top: 100px;
+    
+}
+.second_layout .grow-together{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border-style: solid;
+    height: 70vh;
+    border-color: aliceblue;
+
+}
+.grow-together .text-area{
+    width:50%;
+    
+    margin-left: 50px;
+
+}
+.grow-together #first-line{
+    padding-top: 30px;
+}
+.text-area h3{
+    text-justify: flex;
+}
+.grow-together .image-area{
+    width:50%;
+    margin-left: 100px;
+    
+}
+.image-area img{
+    margin-left: 100px;
+    height: 70%;
+}
+.third_layout{
+    padding-top: 100px;
+    
+}
+.third_layout .flowing-convo{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border-style: solid;
+    height: 70vh;
+    border-color: aliceblue;
+
+}
+.flowing-convo .text-area{
+    width:50%;
+    
+    margin-left: 150px;
+
+}
+.flowing-convo #first-line{
+    padding-top: 30px;
+}
+.text-area h3{
+    text-justify: flex;
+}
+.flowing-convo .image-area{
+    width:50%;
+    margin-left: 30px;
+    
+}
+.image-area img{
+    margin-left: 100px;
+    height: 70%;
+}
+.fourth_layout{
+    padding-top: 100px;    
+}
+.fourth_layout .your-users{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border-style: solid;
+    height: 70vh;
+    border-color: aliceblue;
+
+}
+.your-users .text-area{
+    width:50%;
+    
+    margin-left: 150px;
+
+}
+.your-users #first-line{
+    padding-top: 30px;
+}
+.text-area h3{
+    text-justify: flex;
+}
+.your-users .image-area{
+    width:50%;
+    margin-left: 0px;
+    
+}
+.image-area img{
+    margin-left: 100px;
+    height: 70%;
+}
+footer{
+    margin-top:200px ;
+    background-color: hsl(208, 11%, 55%);
+    height: 70vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+footer .pop-up{
+    width: 50%;
+    height: 30vh;
+    border-style: solid;
+    position: absolute;
+    bottom:60vh;
+    margin: auto;
+    background-color: white;
+    flex-direction: column;
+    border-color: rgba(240, 248, 255, 0.767);
+    border-radius: 5px;
+}
+.pop-up .text-area{
+    height: 50%;
+    
+}
+.pop-up .text-area h1{
+    text-justify: center;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.pop-up .btn{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50%;
+    
+}
+
+.btn button{
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:hsl(322, 100%, 66%) ;
+    border-color: hsl(322, 100%, 66%);
+    border-style: solid;
+    color: white;
+    margin-bottom: 80px;
+
+}
+footer .elements{
+    display: flex;
+    width: 100%;
+    color: white;
+}
+.elements .row1{
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    
+}
+.row1 .map-area{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.map-area .map{
+    width:10%;
+}
+.map image{
+    width: auto;
+}
+.map-area .text{
+    width:80%;
+}
+.elements .row2{
+    width:15%;
+}
+.row1 .phone-area{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.phone-area .phone{
+    width:10%;
+}
+.phone image{
+    width: auto;
+}
+.phone-area .text{
+    width:80%;
+}
+.elements .row3{
+    width:15%;
+}
+.row1 .mail-area{
+    display: flex;
+    flex-direction: row;
+}
+.mail-area .Mail{
+    width:10%;
+}
+.mail image{
+    width: auto;
+}
+.mail-area .text{
+    width:80%;
+}
+.elements .row4{
+    width:35%;
+}
+.row2 p{
+    padding-bottom: 10px;
+}
+.row3 p{
+    padding-bottom: 10px;
+}
+.elements .row4{
+    display: flex;
+}
+.img1 img{
+    margin-right: 20px;
+}
+
+@media screen and(max-width:875px) {
+    
+    .logo-area .text-area{
+        text-justify: center;
+        
+    }
+    .text-area h1{
+        font-size: small;
+        padding-bottom: 100px;
+    }
+    .text-area #first{
+       
+    }
+    .logo-area .text-btn{
+        padding-top: 30px;
+    }
+  
+}
